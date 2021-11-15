@@ -6,10 +6,12 @@ import com.example.apidemo.data.payloads.response.MessageResponse;
 import com.example.apidemo.data.repository.EmployeeRepository;
 import com.example.apidemo.exeptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class EmployeeServiceImpl implements EmployeeService {
 
   @Autowired
